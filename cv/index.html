@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My first CV</title>
+	<link rel="stylesheet" href="css/style.css" />
+	
+</head>
+<body>
+
+
+
+		<nav class="navbar">
+ 
+    <a class="navbar-brand" href="#">
+    	<img src="images/logo.svg" alt="">
+    </a>
+    	<div class="menu-btn"></div>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>    
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#code">Code style</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact me</a>
+        </li>
+      </ul>
+    
+
+
+
+</nav>
+
+<header class="header">
+	<div class="container">
+		
+	<div class="about" id="about">
+		<h1 class="title">About me</h1>
+	<div class="myImage">
+		<img src="images/main.jpg" alt="myImage" width="250">
+	</div>
+		<div class="title">Hello, I'm Muslim</div>
+		<h2 class="sub-title"> front-end developer</h2>
+		<div class="text">
+			These days I am studying at the Institute of Architecture and RS School. After completing my studies at Rs school I will become a front-end developer.
+		</div>
+	</div>
+	
+	</div>
+</header>
+<main class="main">
+	
+		<div class="education" id="education">
+			<div class="container">
+		<div class="title">Education</div>
+		<h2 class="sub-title">First education</h2>
+		<div class="text">
+			2009-2013 at elementary school, number 288
+		</div>
+		<h2 class="sub-title">Midle school</h2>
+		<div class="text">
+			2013-2020 at the school specializing in specific sciences
+		</div>
+		<h2 class="sub-title">Languages</h2>
+		<div class="text">Russian(confident), Uzbek(mother tongue), English(B1)</div>
+	</div>
+	</div>
+
+	<div class="skills" id="skills">
+		<div class="container">
+		<div class="title">
+			Learning skills
+		</div>
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>Bootstrap</li>
+			<li>JavaScript</li>
+		</ul>
+		<div class="title">
+			Programming skills
+		</div>
+		<ul>
+			<li>C++</li>
+			<li>Python</li>
+		</ul>
+	</div>
+	</div>
+	<div class="projects" id="projects">
+		<div class="container">
+			<div class="title">My Projects</div>
+			<div class="text">
+				I would like to show a lot of
+				works related to web development,
+				but this will be overkill, so I will leave a <a href="https://muslim0915.github.io/cv/">link</a>
+				to one of my best works.
+			</div>
+		</div>
+		<div class="code" id="code">
+			<div class="title">My code style on JavaScript</div>
+			<div class="container">
+				<code>
+const menu = document.querySelector('.menu-btn');
+const header__list = document.querySelector('.header__list');
+menu.addEventListener('click', function ()
+{
+    menu.classList.toggle('active');
+    header__list.classList.toggle('active');
+})
+			</code>
+			</div>
+		</div>
+	
+		<div class="contact" id="contact">
+			<div class="container">
+				<div class="title">Contact Info</div>
+		<ul class="contact_menu">
+			<li class="contact_item"><a href="https://www.instagram.com/muslim0915_"><img src="images/instagram.svg" alt="">Instagram</a></li>
+			<li class="contact_item"><a href="https://wa.me/998977057402"><img src="images/whatsapp.svg" alt="">Whatsapp</a></li>
+			<li class="contact_item"><a href="https://t.me/qpaHaPuK"><img src="images/telegram.svg" alt="">Telegram</a></li>
+			<li class="contact_item"><a href="https://www.facebook.com/mirmuslim.abdunabiyev.5"><img src="images/facebook.svg" alt="">Facebook</a></li>
+		</ul>
+			</div>
+	</div>
+	
+	</div>
+</main>
+<footer class="footer">
+	<div class="container">
+		
+	<div class="footer-item"><a href="https://github.com/Muslim0915" target="_blank"><img src="images/github.svg" alt="" width="70"></a></div>
+	<div class="footer-item">2022</div>
+
+	</div>
+</footer>
+		<script src="js/index.js"></script>
+</body>
+</html>
