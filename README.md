@@ -1,2 +1,2 @@
-# My-first-Cv
-https://muslim0915.github.io/My-first-Cv/cv/
+# My first Cv
+https://muslim0915.github.io/myCV/cv/
