@@ -76,6 +76,9 @@ h1.title{
 .section__content__item{
     margin: 20px 0;
     color: #fff;
+    h2{
+        color: #ADFF2FFF;
+    }
     &:last-child{
         margin-bottom: 0;
     }
